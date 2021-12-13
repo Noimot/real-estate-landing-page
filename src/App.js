@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import EstateDeal from "./component/estate-deal";
+import Header from "./component/header/Header";
+import HowItWorks from "./component/how-it-works";
+import Partners from "./component/partners";
+import PropertySearch from "./component/propertysearch";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <section className="main-container">
+        <PropertySearch />
+        <HowItWorks/>
+        <EstateDeal/>
+      </section>
+      <div className="partial-bg"></div>
+      <div>
+        <Partners/>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,89 @@
+div.partners {
+  height: calc(100vh - 70px);
+  padding-left: 80px;
+  margin-top: 50px;
+}
+.image-div {
+  width: 650px;
+  height: 600px;
+  padding-right: 40px;
+}
+.image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+form {
+  position: relative;
+  display: flex;
+  margin-top: 40px;
+}
+
+form > img {
+  position: absolute;
+  top: 28px;
+  left: 20px;
+}
+form input {
+  width: 713.5px;
+  height: 80px;
+  border: 1px solid #DADADA;
+  box-shadow: 0px 1.85px 3.15px rgba(0, 0, 0, 0.0072),
+  0px 8.15px 6.52px rgba(0, 0, 0, 0.0118),
+  0px 20px 13px rgba(0, 0, 0, 0.015),
+  0px 38.52px 25.48px rgba(0, 0, 0, 0.0182),
+  0px 64.81px 46.85px rgba(0, 0, 0, 0.0228),
+  0px 100px 80px rgba(0, 0, 0, 0.03)
+}
+.button button {
+  width: 150px;
+  height: 80px;
+  background-color: #F85A47;
+  color: #fff;
+  outline: inherit;
+  border: inherit;
+} 
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-aside {
+  width: 650px;
+  height: 600px;
+}
+
+.left-aside p:first-child {
+  color: #FF9900;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.left-aside h1 {
+  font-family: 'Manrope',
+  sans-serif;
+  font-weight: 800;
+  font-size: 54px;
+}
+
+.left-aside div>p:nth-child(3) {
+  color: #31353B;
+  font-size: 17px;
+}
+
+::placeholder {
+  padding-left: 80px;
+  color: #31353B;
+  font: 20px;
+  font-family: 'Manrope',
+  sans-serif;
+}
+
+.aside-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+

@@ -1,0 +1,42 @@
+.property-display {
+  display: flex;
+
+}
+.property-display-container {
+  padding: 0 80px;
+  font-family: 'Manrope',
+  sans-serif;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.flex h1{
+  width: 580px;
+  height: 50px;
+  font-size: 40px;
+}
+
+.flex p {
+  width: 470px;
+  margin-top: 20px;
+}
+
+.flex button {
+  width: 200px;
+  height:  65px;
+  background-color: #F85A47;
+  border-radius: 5px;
+  border: transparent;
+  color: #fff;
+}
+.property-section {
+  margin-top: 40px;
+}
+
+.property-section ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
