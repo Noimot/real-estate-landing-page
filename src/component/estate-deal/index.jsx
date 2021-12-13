@@ -26,7 +26,7 @@ const EstateDeal = () => {
             <li>Industrial property</li>
           </ul>
         </div>
-        <div>
+        <div className="flex property-section">
           <div className="image-container">
             <img src={house1} alt="" />
           </div>
